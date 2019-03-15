@@ -3,9 +3,9 @@ package MyPack1;
 import MyPack.*;
 class TestBalance {
     public static void main(String args[]) {
-     /* РљР»Р°СЃСЃ Balance РѕР±СЉСЏРІР»РµРЅ РєР°Рє public, РїРѕСЌС‚РѕРјСѓ РёРј РјРѕР¶РЅРѕ
-     РІРѕСЃРїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ Рё РІС‹Р·РІР°С‚СЊ РµРіРѕ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ . */
+     /* Класс Balance объявлен как public, поэтому им можно
+     воспользоваться и вызвать его конструктор . */
         Balance test = new Balance("J.J. Jaspe rs",99.88);
-        test.show(); // РјРѕР¶РЅРѕ С‚Р°РєР¶Рµ РІС‹Р·РІР°С‚СЊ РјРµС‚РѕРґ show()
+        test.show(); // можно также вызвать метод show()
     }
 }

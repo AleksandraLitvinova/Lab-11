@@ -1,8 +1,7 @@
 @ECHO OFF
 
-set CLASSPATH=.
-
-javac AccountBalance.java
+set CLASSPATH=%PATH%;MyPack;MyPack1
+javac -encoding Windows1251 AccountBalance.java
 
 java AccountBalance
 
