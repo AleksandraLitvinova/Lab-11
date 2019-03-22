@@ -7,7 +7,7 @@ public class Protection {
     public int n_pub = 4;
 
     public Protection() {
-        System.out.println("Кoнcтpyктop базового класса");
+        System.out.println("РљoРЅcС‚pyРєС‚op Р±Р°Р·РѕРІРѕРіРѕ РєР»Р°СЃСЃР°");
         System.out.println("n = " + n);
         System.out.println("n_pri = " + n_pri);
         System.out.println("n_pro = " + n_pro);

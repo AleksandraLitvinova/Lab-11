@@ -2,9 +2,9 @@ package P1;
 
 public class Derived extends Protection {
     Derived () {
-        System.out.println("Кoнcтpyктop подкласса");
+        System.out.println("РљoРЅcС‚pyРєС‚op РїРѕРґРєР»Р°СЃСЃР°");
         System.out.println("n = " + n);
-        // доступно только для класса
+        // РґРѕСЃС‚СѓРїРЅРѕ С‚РѕР»СЊРєРѕ РґР»СЏ РєР»Р°СЃСЃР°
         // System.out.println ( "n_pri = "4 + n_pri ) ;
         System.out.println("n_pro = " + n_pro);
         System.out.println("n_pub = " + n_pub);

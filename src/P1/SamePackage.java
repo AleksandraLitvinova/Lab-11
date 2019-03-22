@@ -3,9 +3,9 @@ package P1;
 public class SamePackage {
     SamePackage() {
         Protection p = new Protection();
-        System.out.println("Кoнcтpyктop этого же пакета");
+        System.out.println("РљoРЅcС‚pyРєС‚op СЌС‚РѕРіРѕ Р¶Рµ РїР°РєРµС‚Р°");
         System.out.println("n = " + p.n);
-        // доступно только для класса
+        // РґРѕСЃС‚СѓРїРЅРѕ С‚РѕР»СЊРєРѕ РґР»СЏ РєР»Р°СЃСЃР°
         // System.out.println ( "n_pri = " + p.n_pri ) ;
         System.out.println("n_pro = " + p.n_pro);
         System.out.println("n_pub = " + p.n_pub);

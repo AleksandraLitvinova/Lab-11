@@ -1,7 +1,7 @@
 @ECHO OFF
 
 set CLASSPATH=%PATH%;P1;P2
-javac -encoding Windows1251 Demo.java
+javac -encoding UTF-8 Demo.java
 
 java Demo
 pause
